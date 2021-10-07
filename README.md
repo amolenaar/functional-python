@@ -1,4 +1,4 @@
-Functional Python
+# Functional Python
 
 This repository contains exercises to learn functional programming in Python.
 
@@ -11,3 +11,12 @@ but it has many features that make it possible to program in a practical
 functional style.
 
 
+
+## Shapes
+
+The folders `shape-fp` and `shape-oo` both contain code with similar functionality: you can calculate the area of a circle and a square.
+
+To both implementations:
+
+* Add a third shape, a [Right Triangle](https://en.wikipedia.org/wiki/Right_triangle).
+* Calculate circumference for the shapes
