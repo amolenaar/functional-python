@@ -27,10 +27,10 @@ RECTANGLES = [
 ]
 
 
-# Find all rectangles with an area > 5
+# TODO: Find all rectangles with an area > 5
 
-# Find the smallest rectangle that contains all rectangles
+# TODO: Find the smallest rectangle that contains all rectangles
 
-# Find all rectangles that intersect with point (0, 0)
+# TODO: Find all rectangles that intersect with point (0, 0)
 
-# Find all clusters of overlapping rectangles
+# TODO: Find all clusters of overlapping rectangles

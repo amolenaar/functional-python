@@ -11,6 +11,10 @@ but it has many features that make it possible to program in a practical
 functional style.
 
 
+## Rectangles
+
+The file `rectangles/rectangles.py` contains a simple rectangle implementation. Implement the `TODO`'s.
+
 
 ## Shapes
 
