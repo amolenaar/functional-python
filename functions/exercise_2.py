@@ -23,3 +23,7 @@ def measure(f):
     Where `499500` is the result of the calculation and
     `3.48e-05` is the time it took to execute.
     """
+
+if __name__ == "__main__":
+    print(measure(time.sleep(1)))
+    
