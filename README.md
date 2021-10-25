@@ -24,3 +24,8 @@ To both implementations:
 
 * Add a third shape, a [Right Triangle](https://en.wikipedia.org/wiki/Right_triangle).
 * Calculate circumference for the shapes
+
+
+## Calculator
+
+See calculator/README.md
