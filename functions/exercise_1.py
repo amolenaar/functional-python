@@ -8,17 +8,14 @@
 #
 
 
-def do_with_text():  # provide correct function signature
-    ...
-
-
-def reverse_text():
+def do_with_text(func):
     with open("text.txt") as text_file:
         content = text_file.read()
-        return "".join(reversed(content))
+        return func(content)
+
+def reverse_text():
+    return do_with_text(lambda content: "".join(reversed(content)))
 
 
 def upper_text():
-    with open("text.txt") as text_file:
-        content = text_file.read()
-        return content.upper()
+    return do_with_text(str.upper)
